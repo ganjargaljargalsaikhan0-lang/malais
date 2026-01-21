@@ -1,0 +1,77 @@
+.box01 {
+    /* pixel */
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    /* box model */
+    /* border-ийн хэлбэр */
+    border-top-style: dashed;
+    border-left-style: dotted;
+    border-bottom-style: double;
+    border-right-style: groove;
+
+    border-top-color: aqua;
+    /* border-ийн өргөнийг */
+    font-size: 40px;
+
+    /* padding */
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+
+    /* margin */
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+
+}
+
+/* box02 дээр
+    өндөр өргөн 400
+    дотор нь Box 02 гэдэг агуулга
+    оруулаад 60px хэмжээтэй болгоорой
+    дараа нь border нь дээд талдаа
+    3, баруундаа 4 гэх мэтээр хэмжээг нь 
+    өгөөрэй. 
+    border бүх талын style нь dotted 
+    байна.
+    border-ийн өнгүүд нь дээд тал нь 
+    red, баруун тал нь green,
+    доод тал нь blue, зүүн тал нь orange
+    байна.
+    дотоод агуулга нь хүрээнээсээ
+    бүх талдаа ижилхэн хэмжээтэй болгоорой.
+    box01 элементээс 30px,
+    зүүн талаасаа 15,
+    доод талаасаа 30 байна.
+*/
+#box02 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+
+
+}
+.box03 {
+    width: 300px;
+    height: 300px;
+    border: 3px groove pink;
+
+    padding: 30px 20px 10px;
+}
+.box03 .child01 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 30px 20px;
+    border: 4px dotted violet;
+
+}
+.box04 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    overflow: scroll;
+}
