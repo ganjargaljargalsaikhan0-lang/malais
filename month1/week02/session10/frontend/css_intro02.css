@@ -1,0 +1,13 @@
+
+.intro {
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe0e0;
+    padding: 10px;
+}

@@ -1,0 +1,14 @@
+.full-width {
+    display: block;
+}
+.inline-text {
+    display: inline-block;
+}
+.button {
+    display: inline-block;
+    width: 150px;
+
+}
+.hide-comletely {
+    display: block;
+}

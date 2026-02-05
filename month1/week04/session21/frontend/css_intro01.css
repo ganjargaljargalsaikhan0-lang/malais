@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;   
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    /* height: 10vh; */
+    /* justify-content: space-between; */
+}
+
+/* .item {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .gallery {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;
+} */
+ /* .items {
+    display: flex;
+    justify-content: center;
+ } */
