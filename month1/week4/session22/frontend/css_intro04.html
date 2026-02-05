@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 50px;
+            display: flex;
+            justify-content: space-between;
+            /* FLEXBOX АШИГЛА: space-between */
+        }
+
+        .copyright {
+            font-size: 14px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            /* FLEXBOX АШИГЛА: gap 20px */
+            list-style: none;
+        }
+
+        .footer-links li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social {
+            display: flex;
+            gap: 15px;
+            /* FLEXBOX АШИГЛА: gap 15px */
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #34495e;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* FLEXBOX АШИГЛА: төвлөрүүлэх */
+        }
+</style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="copyright">
+            © 2024 Company Name. All rights reserved.
+        </div>
+        <ul class="footer-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social">
+            <div class="social-icon">F</div>
+            <div class="social-icon">T</div>
+            <div class="social-icon">I</div>
+        </div>
+    </footer>
+</body>
+</html>

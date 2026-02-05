@@ -1,0 +1,40 @@
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; }
+
+        /* ДААЛГАВАР 1: Navigation */
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* Flex container болго */
+            /* Logo зүүнд, links баруунд (space-between) */
+            /* Босоо голд */
+            background: #34495e;
+            padding: 15px 30px;
+        }
+
+        /* ДААЛГАВАР 2: Card grid */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            /* 3 багана, wrap хийх, gap 20px */
+        }
+
+        .card {
+            width: 200px;
+            height: 150px;
+            background: #3498db;
+            color: white;
+            /* Card content төвлөрүүлэх */
+        }
+
+        /* ДААЛГАВАР 3: Footer */
+        .footer {
+            display: flex;
+        justify-content: space-evenly;
+            /* Бүх элемент тэнцүү тарааx (space-evenly) */
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
