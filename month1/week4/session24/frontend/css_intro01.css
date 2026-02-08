@@ -1,0 +1,70 @@
+.pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: azure;
+
+
+    display: flex;
+
+
+    justify-content: center;
+
+
+    align-items: flex-start;
+
+
+    gap: 30px;
+
+
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 320px;
+
+
+    display: flex;
+
+    flex-direction: column;
+
+
+    align-items: center;
+}
+
+.card-price {
+    margin-bottom: 30px;
+
+    display: flex;
+
+
+    align-items: baseline;
+
+
+    justify-content: center;
+}
+
+.card-features {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+
+
+    display: flex;
+
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 12px;
+}
+
+.card-button {
+    width: 100%;
+    padding: 15px 30px;
+    margin-top: auto;
+}
