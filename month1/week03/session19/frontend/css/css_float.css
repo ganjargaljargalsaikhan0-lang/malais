@@ -1,0 +1,25 @@
+.blog-post {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.float-img {
+    float: left;               /* Зүүн тийш float хийх */
+    margin-right: 20px;        /* Текст болон зураг хооронд зай */
+    margin-bottom: 10px;       /* Доод талын зай */
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.blog-post p {
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,19 @@
+.box {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+#flex-container {
+    height: 500px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

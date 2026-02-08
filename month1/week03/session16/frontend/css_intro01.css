@@ -1,0 +1,30 @@
+.container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+}
+
+/* Inline: Мөр дотор, width ажиллахгүй */
+.box-inline {
+    display: inline;
+    /* width: 150px;  <-- Ажиллахгүй! */
+}
+
+/* Block: Шинэ мөрөнд, 100% өргөн */
+.box-block {
+    display: block;
+    width: 200px;
+}
+
+/* Inline-block: Мөр дотор + width ажиллана */
+.box-inline-block {
+    display: inline-block;
+    width: 50px;
+}
