@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { padding: 20px; }
+
+        .cards {
+            display: flex;
+            /* TODO: Flexbox, wrap */
+            flex-wrap: wrap;
+        }
+
+        .card {
+            /* TODO: flex-basis 250px, grow 1, shrink 1 */
+            /* display: grid; */
+            flex-basis: 250px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            padding: 30px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+</style>
+</head>
+<body>
+    <div class="cards">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>Flexible card</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>Flexible card</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>Flexible card</p>
+        </div>
+        <div class="card">
+            <h3>Card 4</h3>
+            <p>Flexible card</p>
+        </div>
+    </div>
+</body>
+</html>
