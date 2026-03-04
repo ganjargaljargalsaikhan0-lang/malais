@@ -1,0 +1,38 @@
+:root {
+    --bg: #ffffff;
+    --text: #111827;
+    --card-bg: #f9fafb;
+    --primary: #6366f1;
+}
+
+[data-theme="dark"] {
+    --bg: #111827;
+    --text: #f9fafb;
+    --card-bg: #1f2933;
+    --primary: #8b5cf6;
+}
+
+[data-theme="ocean"] {
+    --bg: #e0f2fe;
+    --text: #0c4a6e;
+    --card-bg: #bae6fd;
+    --primary: #0284c7;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+.header,
+.footer {
+    background: var(--primary);
+    color: white;
+    padding: 16px;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 16px;
+}

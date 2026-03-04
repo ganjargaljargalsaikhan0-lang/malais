@@ -1,0 +1,23 @@
+:root {
+    --font-size-base: 14px;
+    --spacing-md: 12px;
+    --columns: 1;
+}
+
+/* 768px дээш */
+@media (min-width: 768px) {
+    :root {
+        --font-size-base: 16px;
+        --spacing-md: 16px;
+        --columns: 2;
+    }
+}
+
+/* 1024px дээш */
+@media (min-width: 1024px) {
+    :root {
+        --font-size-base: 18px;
+        --spacing-md: 24px;
+        --columns: 3;
+    }
+}

@@ -1,0 +1,9 @@
+:root {
+    --color-primary: #6366f1;
+    --spacing-md: 16px;
+}
+
+.box-1 { color: var(--color-primary, red); }
+.box-2 { color: var( orange); }
+.box-3 { padding: var(--spacing-md, 20px); }
+.box-4 { background: var( var(--color-primary, gray)); }
