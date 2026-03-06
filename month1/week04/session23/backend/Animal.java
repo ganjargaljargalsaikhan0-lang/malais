@@ -20,4 +20,19 @@ public class Animal {
     String getOld() {
         return old;
     }
+
+    public void move() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'move'");
+    }
+
+    public void makeSound() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'makeSound'");
+    }
+
+    public void intrduce() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'intrduce'");
+    }
 }

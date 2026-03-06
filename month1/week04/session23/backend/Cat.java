@@ -7,6 +7,9 @@ public class Cat {
     double weight;
     String color;
     int Old;
+    public Cat(String string) {
+        //TODO Auto-generated constructor stub
+    }
     public void gettingOld() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'gettingOld'");
