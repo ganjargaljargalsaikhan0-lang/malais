@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="calc-display" style="border:1px solid #ccc; padding:10px; font-size:24px; min-height:40px;">0</div>
+    <div id="calc-buttons">
+        <button data-val="1">1</button>
+        <button data-val="2">2</button>
+        <button data-val="3">3</button>
+        <button data-val="4">4</button>
+        <button data-val="5">5</button>
+        <button data-val="6">6</button>
+        <button data-val="7">7</button>
+        <button data-val="8">8</button>
+        <button data-val="9">9</button>
+        <button data-val="0">0</button>
+        <button id="clear-btn">C</button>
+
+    </div>
+    <form id="login">
+        <div>
+            <label>Нэвтрэх нэр:</label>
+            <input type="text" id="username" placeholder="нэвтрэх нэр">
+            <span class="error" id="username-error" style="color:red;"></span>
+        </div>
+        <div>
+            <label>Нууц үг:</label>
+            <input type="password" id="password" placeholder="нууц үг">
+            <span class="error" id="password-error" style="color:red;"></span>
+        </div>
+        <button type="submit">Нэвтрэх</button>
+        <p id="success" style="color:green; display:none;">Амжилттай нэвтэрлээ!</p>
+    </form>
+
+    <script src="Ex04.js"></script>
+</body>
+
+</html>
