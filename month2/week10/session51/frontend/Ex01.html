@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <title>while loop жишээ</title>
+</head>
+<body>
+    <h2>Тоолуур</h2>
+    <button onclick="countDown()">Буурах тоолуур</button>
+    <div id="output"></div>
+
+    <script>
+        function countDown() {
+            const output = document.querySelector("#output");
+            output.innerHTML = ""; // цэвэрлэх
+
+            let count = 5;
+            while (count > 0) {
+                const p = document.createElement("p");
+                p.textContent = `Тоо: ${count}`;
+                output.appendChild(p);
+                count--;
+            }
+
+            const done = document.createElement("p");
+            done.textContent = "Дууслаа!";
+            done.style.color = "green";
+            done.style.fontWeight = "bold";
+            output.appendChild(done);
+        }</script>
+</body>
+</html>
