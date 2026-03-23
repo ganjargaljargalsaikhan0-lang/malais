@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <header class="app-header">
+            <h1>📝 Smart Note App</h1>
+            <p class="subtitle">Тэмдэглэлээ хурдан, хялбар удирдаарай</p>
+        </header>
+
+        <!-- TODO: Хайлтын хэсэг нэм -->
+
+        <!-- input.search-input, placeholder="🔍 Тэмдэглэл хайх..." -->
+        <div class="search-section">
+            <input type="text" class="search-input" placeholder="Тэмдэглэл хайх...">
+        </div>
+
+        <!-- TODO: Оруулах хэсэг нэм -->
+        <!-- .note-title-input, .note-content-input, .char-count, .add-btn -->
+        <section class="input-section">
+            <input type="text" class="note-title-input" placeholder="garchig">
+            <textarea name="" class="note-content-input" placeholder="temdeglel bicih"></textarea>
+            <div class="char-count"> 0/200</div>
+            <button class="add-btn">enter</button>
+        </section>
+
+        <!-- Notes харуулах хэсэг - JS-ээр дүүргэгдэнэ -->
+        <main class="notes-grid" id="notes-grid">
+                <div class="note-card"></div>
+        </main>
+        <div class="empty-state"></div>
+
+        <!-- TODO: Empty state div нэм (.empty-state) -->
+        
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

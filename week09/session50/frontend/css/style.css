@@ -1,0 +1,87 @@
+    /* style.css - STARTER CODE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.app-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+/* TODO: .app-header загвар нэм (gradient background, white text) */
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* энд кодоо бичнэ үү */
+}
+
+/* TODO: .search-section болон .search-input загвар нэм */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* энд кодоо бичнэ үү */
+}
+.search-input {
+    width: 800px;
+    border-radius: 8px;
+    height: 50px;
+}
+
+/* TODO: .input-section загвар нэм */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    /* энд кодоо бичнэ үү */
+}
+
+/* TODO: .note-title-input, .note-content-input загвар нэм */
+/* focus үедээ border-color: #667eea болдог байх */
+
+/* TODO: .add-btn загвар нэм (gradient background, hover effect) */
+.add-btn {
+    /* энд кодоо бичнэ үү */
+}
+
+/* TODO: .notes-grid загвар нэм
+   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) */
+.notes-grid {
+    /* энд кодоо бичнэ үү */
+}
+
+/* TODO: .note-card загвар нэм
+   - border-radius: 12px
+   - box-shadow
+   - hover: transform + box-shadow өөрчлөгдөнө
+   - animation: slideIn */
+.note-card {
+    /* энд кодоо бичнэ үү */
+}
+
+/* TODO: .note-card::before - дээд хэсэгт gradient зураас */
+
+/* TODO: .btn-edit, .btn-delete загвар нэм */
+.btn-edit   { /* энд кодоо бичнэ үү */ }
+.btn-delete { /* энд кодоо бичнэ үү */ }
+
+/* TODO: .empty-state загвар (display: none; text-align: center) */
+
+/* TODO: @keyframes slideIn animation нэм */
+@keyframes slideIn {
+    /* from: opacity 0, translateY(20px) */
+    /* to: opacity 1, translateY(0) */
+}

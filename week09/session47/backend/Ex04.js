@@ -59,3 +59,19 @@ form.addEventListener("submit", function(e) {
         // TODO: form.reset()
     }
 });
+// TODO: энд кодоо бичнэ үү
+
+const picker = document.querySelector("#colorPicker");
+const preview = document.querySelector("#preview");
+const colorCode = document.querySelector("#colorCode");
+
+picker.addEventListener(/* TODO: ямар event? */, function(e) {
+    const color = e.target.value;
+
+    // TODO 1: preview-ийн backgroundColor-г color-ар солих
+
+    // TODO 2: colorCode-ийн textContent-г color болгох
+
+    // Нэмэлт сорилт: preview дотор hex кодыг текстээр харуул
+    // (заавал биш)
+}); 
