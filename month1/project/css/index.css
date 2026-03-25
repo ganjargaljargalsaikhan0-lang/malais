@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(156, 212, 250, 1);
+
+}
+.input {
+    width: 800px;
+    height: 42px;
+    border-radius: 16px;
+    padding: 12px;
+}
+.main {
+   
+}
+.post-1{
+    width: 800px;
+    background: rgba(238, 247, 252, 1);
+    height: 152px;
+}
