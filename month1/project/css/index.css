@@ -11,13 +11,62 @@ body {
     width: 800px;
     height: 42px;
     border-radius: 16px;
-    padding: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    
+    
+
 }
 .main {
+    max-width: 900px;
+    margin: 0 auto;
+
    
 }
-.post-1{
+.post-1{    
     width: 800px;
     background: rgba(238, 247, 252, 1);
     height: 152px;
 }
+.blog{
+    /* width: 118px; */
+    height: 38px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.blog-container{
+    max-width: 800px;
+    height: 152px;
+    border-radius: 16px;
+    background-color: rgba(238, 247, 252, 1);
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    position: relative;
+    /* display: flex;
+    gap: 14px; */
+    
+}
+h1 {
+    padding-bottom: 10px;
+}
+.number {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(93, 167, 225, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: -18px;
+    left: -10px;
+}
+
+
