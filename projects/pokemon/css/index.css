@@ -1,0 +1,163 @@
+.container {
+    max-width: 1577px;
+    margin: 0 auto;
+}
+
+.pokemon-card {
+    width: 322px;
+    height: 260px;
+    border-radius: 16px;
+
+
+}
+
+.pokemon-image {
+    width: 180px;
+    height: 134px;
+    position: relative;
+    top: -44px;
+    left: 66px;
+
+
+
+}
+
+#pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 71px;
+
+    /* padding-left: 160px; */
+
+}
+
+.pokemon-name {
+    width: 153px;
+    height: 33px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    left: 20px;
+    bottom: 32px;
+    font-style: Bold;
+    
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.pokemon-id {
+    width: 42px;
+    height: 21px;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: -47px;
+    font-size: 18px;
+    font-weight: 700;
+    left: 20px;
+
+}
+
+#filter {
+    width: 105px;
+    height: 40px;
+    border-radius: 999px;
+    position: relative;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 700;
+
+
+}
+
+#order {
+    width: 188px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 17px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.filter {
+    display: flex;
+    gap: 1210px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+#img {
+
+    padding-top: 48px;
+}
+
+#search {
+    width: 1495px;
+    height: 56px;
+    border-radius: 16px;
+
+    margin-top: 64px;
+    padding-left: 60px;
+    font-size: 16px;
+    color: rgba(65, 110, 223, 1);
+
+
+}
+
+.pokemon-type {
+    position: relative;
+    left: 10px;
+}
+
+.icon {
+    position: relative;
+    bottom: -112px;
+    left: 24px;
+}
+
+.search-bar {
+    width: 151px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(255, 206, 49, 1);
+    color: rgba(65, 110, 223, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1400px;
+    top: -50px;
+    border-color: rgba(255, 206, 49, 1);
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.search-box {}
+
+.pokemon-types {
+    display: flex;
+    gap: 4px;
+    /* spacing */
+}
+
+.pokemon-type {
+    border-radius: 999px;
+    width: 94px;
+    height: 35px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+
+}
+.filter-icon{
+    position: relative;
+    left: -39px;
+    top: 4px;
+}

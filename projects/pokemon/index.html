@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="Pokedex-logo.png" alt="img" id="img">
+        <div class="search"></div>
+        <div class="search-box">
+            <img src="mingcute_search-line.png" class="icon">
+            <input type="text" id="search" placeholder="pokemon name number or type">
+            <button class="search-bar">Search</button>
+        </div>
+        <div class="filter">
+            <select name="order" id="order">
+                <option value="lowest">lowest number first</option>
+                <option value="highest">highest number first</option>
+                <option value="a-z">aplhabetically(a-z)</option>
+                <option value="z-a">alphabetically(z-a)</option>
+
+            </select>
+            <div>
+                <button id="filter">Filter</button>
+                <img src="octicon_filter-16 (1).png" alt="3" class="filter-icon">
+            </div>
+        </div>
+
+        <div id="pokemon-container">
+
+        </div>
+    </div>
+    <script src="./javascript/main.js"></script>
+</body>
+
+</html>
